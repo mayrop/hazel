@@ -13,6 +13,6 @@ Configuration for lintr is in .lintr file. Lints are treated as warnings, but we
 
 In RStudio, you can run lintr from the console as follows:
 
-```
+```R
 > lintr::lint_package()
 ```
