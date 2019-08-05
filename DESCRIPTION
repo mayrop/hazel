@@ -1,14 +1,14 @@
 Package: hazel
-Title: What the Package Does (One Line, Title Case)
+Title: The basic helpers.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Mayra",
+           family = "Valdes",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "4valdes@gmail.com",
+           comment = c(ORCID = "0000-0002-3963-5586"))
+Description: This is a package with helpers for different tasks such as vectors, correlation, loading and more to come.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
