@@ -2,6 +2,7 @@
 
 export(corr.hoeffding)
 export(load.datasets)
+export(load.github)
 export(load.libraries)
 export(load.sources)
 export(vectors.diff)
