@@ -1,3 +1,5 @@
+# Hazel R Package 🌰
+
 ### Summary
 The R package hazel is meant to help on random but helpful functions. The only purpose is personal use.
 
@@ -16,3 +18,7 @@ In RStudio, you can run lintr from the console as follows:
 ```R
 > lintr::lint_package()
 ```
+
+### License
+This package is free and open source software, licensed under GPL.
+
