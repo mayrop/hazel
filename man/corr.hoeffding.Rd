@@ -23,9 +23,6 @@ The matrix with the following columns:
 Hoeffding's D and Spearman matrix in order to produce a scatterplot
 Inspired in SAS Certification Prep Guide: Statistical Business Analysis Using SAS9
 }
-\examples{
-
-}
 \seealso{
 \link{https://www.ncbi.nlm.nih.gov/pubmed/23962479}
 }
