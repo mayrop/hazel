@@ -15,16 +15,22 @@ load.libraries <- function(libraries) {
 
 #' Function to install from devtools::install_github
 #' @export
-load.github <- function(library) {
+load.github <- function(libraries) {
   load.libraries(c("devtools"))
 
-  suffix <- gsub(".*?/", "", library)
-
-  if (!require(suffix, character.only = TRUE)) {
-    devtools::install_github(library)
+  if (!is.array(libraries)) {
+    libraries <- as.array(libraries)
   }
 
-  library(suffix, character.only = TRUE)
+  for (library in libraries) {
+    suffix <- gsub(".*?/", "", library)
+
+    if (!require(suffix, character.only = TRUE)) {
+      devtools::install_github(library)
+    }
+
+    library(suffix, character.only = TRUE)
+  }
 }
 
 #' Function to load from source

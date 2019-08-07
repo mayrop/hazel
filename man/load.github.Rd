@@ -4,7 +4,7 @@
 \alias{load.github}
 \title{Function to install from devtools::install_github}
 \usage{
-load.github(library)
+load.github(libraries)
 }
 \description{
 Function to install from devtools::install_github
