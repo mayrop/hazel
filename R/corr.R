@@ -1,6 +1,5 @@
 #' Hoeffding's D and Spearman matrix in order to produce a scatterplot
 #' Inspired in SAS Certification Prep Guide: Statistical Business Analysis Using SAS9
-
 #' @param x Matrix x
 #' @param y Response y
 #'
@@ -10,8 +9,7 @@
 #'   \item{spearman_abs}{Absolute value of the correlation coefficient}
 #'   \item{hoeffding_d_abs}{Absolute value of the Hoeffding's D correlation coefficient}
 #' @seealso \link{https://www.ncbi.nlm.nih.gov/pubmed/23962479}
-#' @examples
-#'
+#' @import Hmisc
 #' @keywords hoeffding, spearman, monotonic
 #' @export
 corr.hoeffding <- function(x, y) {
