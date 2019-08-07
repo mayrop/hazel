@@ -3,7 +3,7 @@
 ### Summary
 The R package hazel is meant to help on random but helpful functions. The only purpose is personal use.
 
-T``R
+```R
 install.packages("devtools")
 devtools::install_github("mayrop/hazel")
 ```
