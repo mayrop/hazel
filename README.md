@@ -1,7 +1,7 @@
 # Hazel R Package 🌰
 
 ### Summary
-The R package hazel is meant to help on random functions. Personal use mostly, for not rewriting the same thing in every single diff project ;)
+The R package hazel is meant to help on random functions. Personal use mostly, for not rewriting the same thing in every single diff project 😉
 
 ```R
 install.packages("devtools")
