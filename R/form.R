@@ -1,6 +1,6 @@
 #' Function to dynamically build formula
 #' @export
-formula.build <- function(y, x=c(), regex="", transformations=list()) {
+form.build <- function(y, x=c(), regex="", transformations=list()) {
   formula <- ""
 
   for (predictor in x) {
