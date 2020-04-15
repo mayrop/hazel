@@ -4,8 +4,14 @@
 \alias{eval.mcnemar}
 \title{Compute McNemar's test}
 \usage{
-eval.mcnemar(response, model1, model2, names = c("Model 1", "Model 2"),
-  headings = c("Correct", "Incorrect"), correct = TRUE)
+eval.mcnemar(
+  response,
+  model1,
+  model2,
+  names = c("Model 1", "Model 2"),
+  headings = c("Correct", "Incorrect"),
+  correct = TRUE
+)
 }
 \description{
 Compute McNemar's test
