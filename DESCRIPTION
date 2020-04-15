@@ -1,7 +1,7 @@
 Package: hazel
 Title: The basic helpers.
-Version: 0.0.0.9000
-Date: 2019-08-07
+Version: 0.0.1.9001
+Date: 2020-04-14
 Authors@R: 
     person(given = "Mayra",
            family = "Valdes",
