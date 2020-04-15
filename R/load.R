@@ -16,7 +16,7 @@ load.libraries <- function(libraries) {
 #' Function to install from devtools::install_github
 #' @export
 load.github <- function(libraries) {
-  load.libraries(c("devtools"))
+  load.libraries(c("remotes"))
 
   if (!is.array(libraries)) {
     libraries <- as.array(libraries)
@@ -26,7 +26,7 @@ load.github <- function(libraries) {
     suffix <- gsub(".*?/", "", library)
 
     if (!require(suffix, character.only = TRUE)) {
-      devtools::install_github(library)
+      remotes::install_github(library)
     }
 
     library(suffix, character.only = TRUE)
